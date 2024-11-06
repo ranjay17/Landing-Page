@@ -1,0 +1,144 @@
+.body-image {
+  position: absolute;
+  width: 384px;
+  height: 468px;
+  left: 205px;
+  top: 989px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 21px;
+
+  position: absolute;
+  width: 447px;
+  height: 254px;
+  left: 789px;
+  top: 1096px;
+}
+.title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 69px;
+  color: #0e2368;
+}
+.read-more {
+  padding: 14px 34px;
+  color: white;
+  background: #e23744;
+  border-radius: 34px;
+}
+#Article.css .article-container {
+  display: flex;
+}
+
+.article-heading {
+  position: absolute;
+  width: 461px;
+  height: 84px;
+  left: 108px;
+  top: 1614px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  color: #0e2368;
+}
+
+.article-image {
+  position: absolute;
+  width: 326px;
+  height: 257px;
+  left: 135px;
+  top: 1766px;
+  border-radius: 21px;
+}
+
+.article-title {
+  width: 285px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27px;
+  color: #0e2368;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 2050px;
+  margin-left: 140px;
+}
+
+.article-content {
+  width: 295px;
+  height: 81px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #444957;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 140px;
+}
+
+@media only screen and (max-width: 375px) {
+  .body-image {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 200px;
+  }
+
+  .about-text {
+    width: 90%;
+    left: 5%;
+    top: 300px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .read-more {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .article-heading {
+    width: 90%;
+    left: 5%;
+    top: 1400px;
+    font-size: 28px;
+  }
+
+  .article-image {
+    width: 90%;
+    height: auto;
+    left: 5%;
+    top: 1500px;
+  }
+
+  .article-title {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .article-content {
+    width: 90%;
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
